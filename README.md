@@ -22,14 +22,13 @@ Jeypeer is a minimalist blockchain implementation with advanced cryptography and
   - The `clean` command overwrites and removes local files with double confirmation
  ---
 ## Structure for fools
-
 ```mermaid
 flowchart TD
     A[Jeypeer] --> B[init.sh]
-    A --> C[jeypeer (binário)]
-    A --> D[/c]
-    A --> E[/crypt]
-    A --> F[/logs]
+    A --> C[jeypeer binário]
+    A --> D[/c/]
+    A --> E[/crypt/]
+    A --> F[/logs/]
 
     D --> D1[blocks.c]
     D --> D2[chains.c]
