@@ -2,9 +2,12 @@
 Jeypeer is a minimalist blockchain implementation with advanced cryptography and a simple P2P system for creating and sharing blocks. The project combines modern hashing with a lean C architecture, allowing for the exploration of blockchain concepts, event tokenization, and peer-to-peer communication in a direct and transparent way.
 
 ![Jeypeer](https://github.com/user-attachments/assets/802fdb58-2655-4071-bbd8-9ee7e90a7088)
+
 ---
+
 ## Use without hesitation. 
 Compile in [Jeypeer compile](https://github.com/Quikert/Jeypeer#compilation-and-use) or learn in [Jeypeer usage](https://github.com/Quikert/Jeypeer#what-does-this-do)
+
 ---
 
 ## Key features
@@ -31,6 +34,7 @@ Compile in [Jeypeer compile](https://github.com/Quikert/Jeypeer#compilation-and-
   - The `clean` command overwrites and removes local files with double confirmation
   
  ---
+
 ## Structure for fools
 ```mermaid
 flowchart TD
@@ -55,6 +59,7 @@ flowchart TD
     F --> F3[tokens.log]
 ```
 ---
+
 ## Compilation and use
 - Compile with a command: `cd Jeypeer && chmod a+x init.sh && ./init.sh`, the output should be something like:
 ```Shell
@@ -64,6 +69,8 @@ flowchart TD
 [Done] Usage ./jeypeer help
 ```
 - All done!
+
+---
 
 ## What does this do?
 
@@ -134,5 +141,7 @@ Commands for tokenization and P2P networking.
 ![Linux](https://img.shields.io/badge/Linux-OS-blue?logo=linux)
 ![WSL](https://img.shields.io/badge/WSL-Subsystem-green?logo=windows)
 
+---
 
-
+> Powered by @Quikert <3
+>
