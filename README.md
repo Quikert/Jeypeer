@@ -23,7 +23,8 @@ Jeypeer is a minimalist blockchain implementation with advanced cryptography and
  ---
 ## Structure for fools
 
- flowchart TD
+```mermaid
+flowchart TD
     A[Jeypeer] --> B[init.sh]
     A --> C[jeypeer (binário)]
     A --> D[/c]
@@ -43,4 +44,5 @@ Jeypeer is a minimalist blockchain implementation with advanced cryptography and
     F --> F1[blocks.log]
     F --> F2[process.log]
     F --> F3[tokens.log]
+```
 --- 
