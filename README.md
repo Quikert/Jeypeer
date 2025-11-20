@@ -63,67 +63,65 @@ flowchart TD
 - All done!
 
 ## What does this do?
-- ### Generics
+
+## Generics
 Basic commands to initialize and interact with the blockchain.
 
-- **Help**  
+#### Help
   Shows the list of available commands.  
   **Use:** `./jeypeer help`
 
-- **Init**  
+#### Init
   Initializes the blockchain by creating the genesis block.  
   **Use:** `./jeypeer init`
 
-- **ADD-Block**  
+#### ADD-Block
   Adds a new block to the chain with the specified data.  
   **Use:** `./jeypeer add-block "DATA"`
 
-- **List**  
+#### List
   Lists all blocks currently in the blockchain.  
   **Use:** `./jeypeer list`
 
-- **Verify**  
+#### Verify
   Verifies the integrity of the blockchain by checking hashes and order.  
   **Use:** `./jeypeer verify`
 
 ---
 
-# Peers
+## Peers
 Commands to manage peer connections.
 
-- **Peers add**  
+#### Peers add
   Adds a peer address to the local peer list.  
   **Use:** `./jeypeer peers add 127.0.0.1:7000`
 
-- **Peers rm **  
+#### Peers rm
   Removes a peer address from the local peer list.  
   **Use:** `./jeypeer peers rm 127.0.0.1:7000`
 
-- **Peers ls**  
+#### Peers ls
   Lists all known peer addresses.  
   **Use:** `./jeypeer peers ls`
 
 ---
 
-# Token and Server
+## Token and Server
 Commands for tokenization and P2P networking.
 
-- **Tokens and event**  
+#### Tokens and event
   Tokenizes the given event string and logs each token.  
   **Use:** `./jeypeer tokens "PROC|ID=42|STATE=RUNNING"`
 
-- **P2P server**  
+#### P2P server
   Starts a TCP server to receive and append blocks from peers.  
   **Use:** `./jeypeer p2p server 7000`
 
-- **P2P send**  
+#### P2P end
   Sends a block with the given data to a peer at the specified host and port.  
   **Use:** `./jeypeer p2p send 127.0.0.1 7000 "tx: alice->bob 10"`
 
-- **Clean cache**  
+  #### Clean cache
   Securely overwrites and deletes all local blockchain and log files (requires confirmation).  
   **Use:** `./jeypeer clean`
 ---
-
-
---- 
