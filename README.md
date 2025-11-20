@@ -128,3 +128,6 @@ Commands for tokenization and P2P networking.
 ---
 
 ### Tested on
+![Linux Badge](https://img.shields.io/badge/Linux-OS-black?logo=linux)
+![WSL Badge](https://img.shields.io/badge/WSL-Subsystem-black?logo=windows)
+
