@@ -3,6 +3,9 @@ Jeypeer is a minimalist blockchain implementation with advanced cryptography and
 
 ![Jeypeer](https://github.com/user-attachments/assets/802fdb58-2655-4071-bbd8-9ee7e90a7088)
 ---
+## Use without hesitation. 
+Compile in [Jeypeer compile](https://github.com/Quikert/Jeypeer#compilation-and-use) or learn in [Jeypeer usage](https://github.com/Quikert/Jeypeer#what-does-this-do)
+---
 
 ## Key features
 - Minimalist Blockchain
