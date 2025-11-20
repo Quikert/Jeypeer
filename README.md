@@ -121,7 +121,39 @@ Commands for tokenization and P2P networking.
   Sends a block with the given data to a peer at the specified host and port.  
   **Use:** `./jeypeer p2p send 127.0.0.1 7000 "tx: alice->bob 10"`
 
-  #### Clean cache
+#### Clean cache  
   Securely overwrites and deletes all local blockchain and log files (requires confirmation).  
   **Use:** `./jeypeer clean`
 ---
+
+### Tested on
+<div align="center">
+  
+  <div style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
+    
+    <div style="text-align: center;">
+      <img src="https://www.debian.org/logos/openlogo-nd-100.png" width="80">
+      <br>
+      <strong>Debian</strong>
+      <br>
+      <small>Estável e confiável</small>
+    </div>
+    
+    <div style="text-align: center;">
+      <img src="https://assets.ubuntu.com/v1/29985a98-ubuntu-logo32.png" width="80">
+      <br>
+      <strong>Ubuntu</strong>
+      <br>
+      <small>Amigável e popular</small>
+    </div>
+    
+    <div style="text-align: center;">
+      <img src="https://raw.githubusercontent.com/microsoft/WSL/master/media/WSL.png" width="80">
+      <br>
+      <strong>WSL</strong>
+      <br>
+      <small>Linux no Windows</small>
+    </div>
+    
+  </div>
+</div>
